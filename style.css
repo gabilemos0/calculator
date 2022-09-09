@@ -82,6 +82,7 @@ body {
 .fun_btn:hover,
 .fun_btn:active {
   background: rgba(197, 138, 245, 0.5);
+  color: #333;
 }
 
 .num_btn {
@@ -91,5 +92,5 @@ body {
 
 .num_btn:hover,
 .num_btn:active {
-  background: rgba(197, 138, 245, 0.199);
+  background: rgba(197, 138, 245, 0.5);
 }
