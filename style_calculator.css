@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: rgb(197, 138, 245);
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fafafac7;
+  max-width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2.5rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  user-select: none;
+}
+
+#displayArea {
+  width: 100%;
+  margin: 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(155, 153, 153);
+  padding: 0.5rem;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+#currentValue {
+  text-align: right;
+  color: #333;
+  font-size: 2rem;
+  word-wrap: break-word;
+}
+
+#answerScreen {
+  text-align: right;
+  color: rgb(109, 109, 109);
+  font-size: 1.5rem;
+  word-wrap: break-word;
+}
+
+#keypadBtns {
+  display: flex;
+  flex-direction: column;
+}
+
+#keypadBtns .btnsRows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#keypadBtns button {
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  margin: 0.1rem;
+}
+
+#keypadBtns button:hover {
+  cursor: pointer;
+}
+
+.fun_btn {
+  background: rgb(197, 138, 245);
+  color: white;
+}
+
+.fun_btn:hover,
+.fun_btn:active {
+  background: rgba(197, 138, 245, 0.5);
+}
+
+.num_btn {
+  background-color: white;
+  color: #333;
+}
+
+.num_btn:hover,
+.num_btn:active {
+  background: rgba(197, 138, 245, 0.199);
+}
